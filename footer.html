@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <style>
+        /* ____________________________________Header */
+
+        .dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: rgb(235, 230, 225);
+    opacity: 80%;
+    border-radius: 10%;
+    transition: ease;
+    scale: 1;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  section{
+    display: block;
+  }
+
+  .nav-link.navmenu a {
+    text-decoration: none;
+    color: inherit; /* Set link color to inherit from parent */
+}
+
+                /* ____________________________________footer */
+.big-footer{
+    background-color: rgb(5, 51, 75);
+    color: white;
+    width: 100%;
+}
+
+.newletter {
+    background-image: linear-gradient(rgba(10, 2, 2, 0.1),rgba(0,0,0,.1)),url(Image/ct-student.jpg);
+    background-size: cover;
+    background-position: top left;
+    max-width: 1100px;
+    margin: -60px auto 0;
+    border-radius: 30px;
+    padding: 50px;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-weight: 400;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+/*for gap between header and footer*/
+.empty{
+    height: 200px;
+}
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!------------------------Top Nav and NAv Menu------------------------------->
+
+    <nav class="navbar navbar-light p-3 mb-2 pinkglow  navbar-fixed-top top1">
+        <div class="container-fluid ">
+            <div  ><i class="fas fa-phone-alt"></i><span>01835674339/01835674339</span></a></a>
+           <i class="fas fa-envelope"></i><span>|zero@coderstrustbd.com</span></a>
+        </div>
+            <div>
+            <i class="fas fa-user"></i>Login/Register</div>
+    </div>
+    </div>
+      </nav>
+     
+    
+    <!-- Carousel section -->
+    <section>
+        <header class="navbar navbar-expand-lg">
+            <div class="container ">
+                <div class="navbar-brand float-left">
+                   <h1 style="font-weight: 800px;" >Zero Coders </h1>
+                 
+                </div>
+                <div class="navbar-nav float-left">
+                    <button class="btn  category ">Categories</button>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item ">Web Development</li>
+                            <li class="dropdown-item">Graphic Design</li>
+                            <li class="dropdown-item">Digital Marketing</li>
+                            <li class="dropdown-item">Accounts Management System</li>
+                            <li class="dropdown-item">Advance Excel</li>
+                            <li class="dropdown-item">Business Communications</li>
+                            <li class="dropdown-item">Video Editing</li>
+                            <li class="dropdown-item">Corporate Courses</li>
+                            <li class="dropdown-item">Career Advisor</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-search float-left">
+                    <form action="/" method="get">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="s" id="search" placeholder="Search Course" value="" />
+                            <button type="submit" class="btn">&#128269;</button>
+                        </div>
+                    </form>
+                </div>
+                <nav class="navbar-nav float-right" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle navmenu"><a href="#"> About</a></span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">History</li>
+                                <li class="dropdown-item">Founders</li>
+                                <li class="dropdown-item">Leadership &#038; Management</li>
+                                <li class="dropdown-item">Mentors</li>
+                                <li class="dropdown-item">Gallery</li>
+                                <li class="dropdown-item">News &#038; Events</li>
+                                <li class="dropdown-item">Success Stories</li>
+                                <li class="dropdown-item">Payment Methods</li>
+                                <li class="dropdown-item">Career</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle navmenu"><a href="#">Courses</a></span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">Regular Courses</li>
+                                <li class="dropdown-item">Premium Courses</li>
+                                <li class="dropdown-item">Crash Courses</li>
+                                <li class="dropdown-item">Diploma Courses</li>
+                                <li class="dropdown-item">Corporate Courses</li>
+                                <li class="dropdown-item">Upcoming Courses</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><span class="nav-link navmenu"><a href="#">Workshops</a></span></li>
+                        <li class="nav-item dropdown">
+                            <span class=" navmenu nav-link dropdown-toggle"><a href="#">Projects</a></span>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">UNDP – YES</li>
+                                <li class="dropdown-item">PKSF – SEIP</li>
+                                <li class="dropdown-item">WSDFM</li>
+                                <li class="dropdown-item">Teachers Training</li>
+                                <li class="dropdown-item">Brac – BISD</li>
+                                <li class="dropdown-item">Care – Imagine</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><span class="nav-link navmenu"><a href="#">Services</a></span></li>
+                        <li class="nav-item"><span class="nav-link navmenu"><a href="#">Blog</a></span></li>
+                        <li class="nav-item"><span class="nav-link navmenu"><a href="#">Contact</a></span></li>
+                    </ul>
+                </nav>
+            </div>
+          </header>
+           </section>
+      
+        <div class="empty"></div>
+    <!----------------------Big footer--------------->
+    <div class="container">
+    <section class="newletter clearfix big-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="font-weight: bolder; " class="pinkglow">Join our student community</h3>
+                  
+                </div>
+                <div class="col-md-6">
+                    <a href="https://www.facebook.com/groups/755221881249745" target="_blank" class="news-link btn btn-success">View Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="big-footer">
+                   
+                    <p class="h1 pinkglow">ZERO CODERS</p>
+        <div class="container d-flex">
+            <div class="col-md-3">
+                
+              
+                <ul class="tws-social d-flex">
+                    <li class="mx-3">
+                        <a href="https://www.facebook.com/coderstrustbangladesh" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="mx-3">
+                        <a href="https://twitter.com/coderstrust_bd" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="mx-3">
+                        <a href="https://www.youtube.com/channel/UC-87-uUgQ2G779xaBSeuMLA" title="YouTube" target="_blank">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="mx-3">
+                        <a href="https://www.linkedin.com/company/coderstrust-bangladesh/" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex certification">
+                    <img src="https://coderstrustbd.com/wp-content/uploads/2021/08/nsda.png" alt="NSDA Certification" class="img-fluid">
+                    <img src="https://coderstrustbd.com/wp-content/uploads/2022/05/bteb.png" alt="BTEB Certification" class="img-fluid">
+                </div>
+            </div>
+<div class="col-md-2"></div>
+            <div class="d-flex align-end">
+            <div class="col-md-2">
+                <h6 class="widget-title">Quick Links</h4>
+                <ul>
+                    <li><a href="https://coderstrustbd.com/history/">History</a></li>
+                    <li><a href="https://coderstrustbd.com/gallery/">Gallery</a></li>
+                    <li><a href="https://coderstrustbd.com/all-courses/">All Courses</a></li>
+                    <li><a target="_blank" rel="noopener" href="https://www.facebook.com/groups/755221881249745">Success Story</a></li>
+                    <li><a href="https://coderstrustbd.com/contact-us/">Contact Us</a></li>
+                    <li><a href="https://coderstrustbd.com/privacy-policy/">Privacy Policy</a></li>
+                </ul>
+            </div>
+<div class="col-md-1"></div>
+            <div class="col-md-3">
+                <h4 class="widget-title">Courses</h4>
+                <ul>
+                    <li><a href="https://coderstrustbd.com/courses/responsive-web-design/">Responsive Web Design</a></li>
+                    <li><a href="https://coderstrustbd.com/courses/graphic-design/">Graphic Design</a></li>
+                    <li><a href="https://coderstrustbd.com/courses/digital-marketing/">Digital Marketing</a></li>
+                    <li><a href="https://coderstrustbd.com/courses/accounts-management-system/">Accounts Management System</a></li>
+                    <li><a href="https://coderstrustbd.com/courses/advanced-excel/">Advanced Excel</a></li>
+                    <li><a href="https://coderstrustbd.com/courses/english-for-career-speaking-writing/">English For Career</a></li>
+                </ul>
+            </div>
+  <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <h4 class="widget-title">Get In Touch</h4>
+                <figure class="icon-text-block clearfix">
+                    <figcaption class="icon-block float-left">
+                        <i class="fas fa-map-marker-alt"></i>    
+                    </figcaption>
+                    <figcaption class="content float-left">
+                        <p>House# 82, Road# 19/A, Block# E, Banani, Dhaka-1213</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="icon-text-block clearfix">
+                    
+                    <figcaption class="icon-block content float-left">
+                         
+                        <ul class="numbers"><i class="fas fa-phone-alt"></i>  
+                            <li><a href="tel:+8801835674339">+8801835674339</a></li>
+                            <li><a href="tel:+8801835674339">+8801835674339</a></li>
+                            <li><a href="tel:+8801835674339">+8801835674339</a></li>
+                            <li><a href="tel:+8801835674339">+8801835674339</a></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <figure class="icon-text-block clearfix">
+                    <figcaption class="icon-block float-left">
+                        <i class="fas fa-envelope"></i>  
+                    </figcaption>
+                    <figcaption class="content float-left">
+                        <a href="mailto:hello@coderstrustbd.com">Zero@coderstrustbd.com</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+</div>
+<br><br>
+<!----------footer last---------->
+    <footer class="footer bg-warning ">
+        <div class="container d-flex">
+            <div class="col-md-5">
+                <article class="copyright">
+                    <p>&copy; 2023 Zero Coders Bangladesh | <a href="https://coderstrustbd.com/sitemap">Sitemap</a></p>
+                </article>
+            </div>
+            <div class="col-md-7">
+                <div class="payment-method">
+                    <ul class="pay-meth d-flex">
+                        <li>
+                            <img src="Image/visa.png" alt="Visa" class="img-fluid">
+                        </li>
+                        <li>
+                            <img src="Image/master.png" alt="MasterCard" class="img-fluid">
+                        </li>
+                        <li>
+                            <img src="Image/visa.png" alt="American Express" class="img-fluid">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+</body>
+</html>
